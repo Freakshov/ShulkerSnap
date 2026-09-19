@@ -45,7 +45,30 @@
 
 ---
 
-### 📦 Kurulum
-1. Bilgisayarınızda **Fabric Loader** ve **Fabric API** kurulu olsun.
+### 📦 Oyuna Kurulum (Oyuncular İçin)
+1. Bilgisayarınızda **Fabric Loader** ve **Fabric API** kurulu olduğundan emin olun.
 2. `ShulkerSnap-1.0.0.jar` dosyasını `.minecraft/mods` klasörüne atın.
 3. Oyunu başlatın, hepsi bu kadar!
+
+---
+
+### 🔨 Kaynak Koddan Nasıl Build Alınır? (Geliştiriciler İçin)
+Projeyi sıfırdan kendiniz derlemek isterseniz:
+
+1. Java 17 veya üzeri kurulu olmalıdır.
+2. Terminal veya komut istemcisini proje klasöründe açın.
+3. Şu komutu çalıştırın:
+   - **Windows:**
+     ```bash
+     .\gradlew.bat build
+     ```
+   - **Linux / macOS:**
+     ```bash
+     ./gradlew build
+     ```
+4. Derleme bittiğinde hazır mod dosyası `build/libs/` klasörü içinde oluşacaktır.
+
+---
+
+### 📜 Lisans
+Bu proje [MIT](LICENSE) lisansı ile korunmaktadır.
